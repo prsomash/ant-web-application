@@ -56,5 +56,8 @@
 		<delete dir="${work.home}" />
 		<delete dir="${war.home}" />
 	</target>
-	
+	<target name="clean">
+		<delete dir="dist" />
+		<delete dir="build" />
+	</target>
 </project>
